@@ -1,13 +1,30 @@
 .deck {
     border: 1px solid red;
     margin: 1rem auto;
-    width: 90%;
+    width: 960px;
+}
+
+nav {
+    text-align: center;
+    max-height: 100px;
+    width: 960px;
 }
 
 div.card {
     margin: 1rem 0;
     padding: 2rem;
     text-align: center;
+}
+
+/* section.wrapper {
+    height: 240px;
+    width: 50%;
+} */
+
+div.tier2 {
+    /* height: 240px; */
+    width: 50%;
+    display: inline-block;
 }
 
 @media (min-width: 1160px) {
@@ -34,6 +51,7 @@ div.card {
     div.special {
         width: 20%;
         float: left;
+        min-height: 100%;
     }
 
     section.innerBox {
