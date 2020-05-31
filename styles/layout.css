@@ -9,13 +9,29 @@ div.card {
     padding: 2rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1160px) {
+
     body {
         background: red;
     }
 
-    div{
+    div.tier1{
         display: inline-block;
-        width: 25%;
+        width: 40%;
     }
+
+    div.tier2 {
+        display: inline-block;
+        width: 20%;
+    }
+
+    div.tier3 {
+        display: inline-block;
+        width: 80%;
+    }
+
+    div.special {
+        width: 20%;
+    }
+
 }
