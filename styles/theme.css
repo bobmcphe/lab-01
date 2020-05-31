@@ -1,0 +1,22 @@
+header {
+    background: purple;
+}
+
+body {
+    background: #fff;
+    font-size: 2.5rem;;
+}
+
+
+div.card {
+    border: 1px solid #111;
+}
+
+footer {
+    background: #ccc;
+}
+
+.menu li:hover {
+    background: #f5f5f5;
+    color: #111;
+    }
