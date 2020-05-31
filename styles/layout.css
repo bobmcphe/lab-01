@@ -7,6 +7,7 @@
 div.card {
     margin: 1rem 0;
     padding: 2rem;
+    text-align: center;
 }
 
 @media (min-width: 1160px) {
@@ -32,6 +33,11 @@ div.card {
 
     div.special {
         width: 20%;
+        float: left;
+    }
+
+    section.innerBox {
+        float: right;
     }
 
 }
