@@ -1,3 +1,8 @@
+/* p {
+    margin: auto;
+    width: 50%;
+} */
+
 .deck {
     border: 1px solid red;
     margin: 1rem auto;
@@ -12,9 +17,11 @@ nav {
 
 div.card {
     margin: 1rem 0;
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: center;
     margin: .8rem
+    /* margin: auto;
+    width: 50%; */
 }
 
 /* section.wrapper {
@@ -35,7 +42,14 @@ div.special {
     height: 150px;
 }
 
+div.tier1 {
 
+    display: inline-block;
+    height: 150px;
+    /* width: 45%; */
+    width: 200px;
+    margin: .8rem
+}
 
 
 @media (min-width: 1160px) {
