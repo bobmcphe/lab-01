@@ -1,97 +1,85 @@
-/* p {
-    margin: auto;
-    width: 50%;
-} */
+* {box-sizing: border-box;}
 
-.deck {
-    border: 1px solid red;
-    margin: 1rem auto;
-    width: 960px;
+div {
+  text-align: center;
+  font-size: 24px;
+  border: solid red 1px;
+  margin: 0px;
+  padding: 0px;
 }
 
-nav {
-    text-align: center;
-    max-height: 100px;
-    width: 960px;
+.wrapper {
+/*   display: grid; */
+/*   grid-template-columns: repeat(5, 1fr); */
+/*   grid-gap: 1px; */
+/*   grid-auto-rows: minmax(100px, auto); */
+  grid-template-rows: repeat(14, 50px);
+  width: 482px;
+  margin: 0 auto;
 }
 
-div.card {
-    margin: 1rem 0;
-    /* padding: 2rem; */
-    text-align: center;
-    margin: .8rem
-    /* margin: auto;
-    width: 50%; */
+.a {
+  width: 480px;
+  height: 75px;
+  background-color: grey;
+  line-height: 75px;
+}
+.b { 
+  width: 480px;
+  height: 150px;
+  background-color: grey;
+  line-height: 150px;
+  float: left;
+}
+.c {
+  width: 480px;
+  height: 125px;
+  background-color: grey;
+  line-height: 125px;
+  float: left;
+}
+.d {
+  width: 480px;
+  height: 125px;
+  background-color: grey;
+  line-height: 125px;
+  float: left;
+}
+.e {
+  width: 240px;
+  height: 250px;
+  background-color: grey;
+  line-height: 240px;
+  float: left;
+}
+.f {
+  width: 240px;
+  height: 250px;
+  background-color: grey;
+  line-height: 240px;
+  float: left;
 }
 
-/* section.wrapper {
-    height: 240px;
-    width: 50%;
-} */
-
-div.tier2 {
-    height: 240px;
-    /* width: 45%; */
-    width: 240px;
-    display: inline-block;
-    margin: .8rem
+.g {
+   width: 240px;
+  height: 250px;
+  background-color: grey;
+  line-height: 240px;
+  float: left;
 }
 
-div.special {
-    width: 100%;
-    height: 150px;
+.h {
+   width: 240px;
+  height: 250px;
+  background-color: grey;
+  line-height: 240px;
+  float: left;
 }
 
-div.tier1 {
-
-    display: inline-block;
-    height: 150px;
-    /* width: 45%; */
-    width: 200px;
-    margin: .8rem
-}
-
-
-@media (min-width: 1160px) {
-
-    body {
-        background: red;
-    }
-
-    div.tier1{
-        display: inline-block;
-        width: 40%;
-    }
-
-      /* TIER 2 */
-
-    div.tier2 {
-        display: inline-block;
-        width: 20%;
-        margin: 0 auto;
-    }
-
-    div.special {
-        width: 20%;
-        float: left;
-        min-height: 600px;
-        margin: .8rem;
-    }
-
-    section.innerBox {
-        float: right;
-    }
-
-    /* TIER 3 */
-
-    div.tier3 {
-        height: 80px;
-
-    }
-
-    div.tier3 {
-        display: inline-block;
-        width: 80%;
-    }
-
+.i {
+  width: 480px;
+  height: 80px;
+  background-color: grey;
+  line-height: 80px;
+  float: left;
 }
