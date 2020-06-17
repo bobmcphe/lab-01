@@ -164,26 +164,3 @@ div {
     float: left;
     }
 }
-
-
-/* .deck {
-    border: 1px solid red;
-    margin: 1rem auto;
-    width: 90%;
-}
-
-div.card {
-    margin: 1rem 0;
-    padding: 2rem;
-}
-
-@media (min-width: 900px) {
-    body {
-        background: red;
-    }
-
-    div{
-        display: inline-block;
-        width: 25%;
-    }
-} */
